@@ -1,0 +1,10 @@
+SublimeLinter-contrib-alex
+-------------------------------
+This linter plugin for SublimeLinter provides an interface to Alex.
+
+** IMPORTANT! **
+
+Before this plugin will activate, you *must*
+follow the installation instructions here:
+
+https://github.com/sindresorhus/SublimeLinter-contrib-alex

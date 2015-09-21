@@ -33,12 +33,6 @@ Once you have installed and configured Alex, you can proceed to install the `Sub
 
 ### Plugin install
 
--
-
-**This plugin is not yet on Package Control. For now you'll have to [install it manually](http://www.macdrifter.com/2012/08/install-sublime-packages-from-github.html).**
-
--
-
 Please use [Package Control][pc] to install the linter plugin. This will ensure that the plugin will be updated when new versions are available. If you want to install from source so you can modify the source code, you probably know what you are doing so we won't cover that here.
 
 To install via Package Control, do the following:

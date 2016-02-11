@@ -1,9 +1,0 @@
-language: python
-python:
-  - '3.3'
-install:
-  - pip install flake8
-  - pip install pep257
-script:
-  - flake8 . --max-line-length=120
-  - pep257 . --ignore=D202

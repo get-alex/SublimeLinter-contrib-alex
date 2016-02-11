@@ -14,7 +14,6 @@ from SublimeLinter.lint import NodeLinter
 
 
 class Alex(NodeLinter):
-
     """Provides an interface to Alex."""
 
     cmd = 'alex'

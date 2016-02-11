@@ -1,4 +1,4 @@
-# SublimeLinter-contrib-alex [![Build Status](https://travis-ci.org/sindresorhus/SublimeLinter-contrib-alex.svg?branch=master)](https://travis-ci.org/sindresorhus/SublimeLinter-contrib-alex)
+# SublimeLinter-contrib-alex
 
 ![](screenshot.png)
 
@@ -54,7 +54,7 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 [docs]: http://sublimelinter.readthedocs.org
 [installation]: http://sublimelinter.readthedocs.org/en/latest/installation.html
 [locating-executables]: http://sublimelinter.readthedocs.org/en/latest/usage.html#how-linter-executables-are-located
-[pc]: https://sublime.wbond.net/installation
+[pc]: https://packagecontrol.io/installation
 [cmd]: http://docs.sublimetext.info/en/sublime-text-3/extensibility/command_palette.html
 [settings]: http://sublimelinter.readthedocs.org/en/latest/settings.html
 [linter-settings]: http://sublimelinter.readthedocs.org/en/latest/linter_settings.html

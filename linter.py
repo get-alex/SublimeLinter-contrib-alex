@@ -8,14 +8,10 @@
 # License: MIT
 #
 
-"""This module exports the Alex plugin class."""
-
 from SublimeLinter.lint import NodeLinter
 
 
 class Alex(NodeLinter):
-    """Provides an interface to Alex."""
-
     cmd = 'alex'
     regex = r'^\s+(?P<line>\d+):(?P<col>\d+).+(?:(?P<warning>warning)) (?P<message>.+)'
     selectors = {

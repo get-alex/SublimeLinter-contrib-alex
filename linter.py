@@ -1,28 +1,14 @@
-#
-# linter.py
-# Linter for SublimeLinter3, a code checking framework for Sublime Text 3
-#
-# Written by Sindre Sorhus
-# Copyright (c) 2015 Sindre Sorhus
-#
-# License: MIT
-#
-
-from SublimeLinter.lint import NodeLinter
-
+from SublimeLinter.lint import NodeLinter, util
 
 class Alex(NodeLinter):
-    cmd = 'alex'
-    regex = r'^\s+(?P<line>\d+):(?P<col>\d+).+(?:(?P<warning>warning)) (?P<message>.+)'
-    selectors = {
-        'html': 'text.html.basic'
-    }
-    syntax = (
-        'markdown',
-        'markdown extended',
-        'multimarkdown',
-        'plain text'
-    )
-    version_args = '--version'
-    version_re = r'(?P<version>\d+\.\d+\.\d+)'
-    version_requirement = '>=0.0.0'
+	npm_name = 'alex'
+	cmd = ('alex', '--stdin')
+	regex = (
+		r'^\s+(?P<line>\d+):(?P<col>\d+).+'
+		r'(?:(?P<error>error)|(?P<warning>warning))\s+'
+		r'(?P<message>.+)'
+	)
+	defaults = {
+		'selector': 'text.plain, text.html.markdown'
+	}
+	error_stream = util.STREAM_STDERR
